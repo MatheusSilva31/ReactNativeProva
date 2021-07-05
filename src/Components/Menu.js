@@ -6,7 +6,7 @@ export default props =>{
     return(
         <ScrollView>
             <View>
-                <Text>OLÁ MUNDO</Text>
+                <Text style={styles.texto}> Collective</Text>
             </View>
             <DrawerItems {...props}/>
         </ScrollView>
@@ -15,6 +15,10 @@ export default props =>{
 
 const styles = StyleSheet.create({
     container:{
-
+        
+    },
+    texto:{
+        fontSize:50,
+        color:'purple'
     }
 })
