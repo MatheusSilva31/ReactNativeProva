@@ -8,9 +8,8 @@ export default props =>{
         <View style={styles.container}>
             <Header navigation={props.navigation}/>
             <Titulo home="false"  titulo="Content Block"></Titulo>
-            <Text>content</Text>
-            <Button title='ir para tela2 ' onPress={()=>props.navigation.navigate('PricingTable')}  />
-            <Button title='ir pra home' onPress={()=>props.navigation.navigate('Dashboard')}  />
+            
+
         </View>
     )
 }

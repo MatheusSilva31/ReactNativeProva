@@ -11,7 +11,7 @@ export default (props)=>{
         return(
             <>
             <Text style={styles.estilo2} >{props.titulo}</Text>
-            <Text>{props.Subtitulo}</Text>
+            <Text tyle={styles.estilo3} >{props.Subtitulo}</Text>
             </>
         )
 

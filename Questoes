@@ -1,0 +1,16 @@
+o que é componente ?é como se fossem partes independentes que podem ser reutilizadas 
+e alteradas para desenvolver novas Screens,como se fossem peças de um quebra cabeça 
+cada componente é chamado e dessa forma a screen é montada
+
+o que é um JSX:são trechos de codigo que são adicionados no desenvolvimento de um projeto 
+ React native,com a finalidade de simplificar o desenvolvimento aonde é possivel utilizar 
+ expressoes de JS
+
+o que é metodo render()?esse metodo é utilizado quando se cria componentes baseados em classes 
+e é atraves dele que são rendenizados os elementos
+
+o que é props: a grosso modo são propriedades que podemos passar para os componentes 
+
+o que é state:o state é  forma de manipular nossos componentes criados,então armazenamos
+ e definimos um state(estado) inicial e atraves disso conseguimos manipula-los alterando os 
+ states dos componentes

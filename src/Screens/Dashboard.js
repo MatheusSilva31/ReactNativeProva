@@ -13,7 +13,7 @@ export default props =>{
             <Header navigation={props.navigation}/>
             <Titulo home="true"  titulo="Hi John,Welcome back!" Subtitulo="Very detailed & featured admin."></Titulo>
             
-            <CardHome IconName="user" title='29.75 M' subtitle="Toral users"></CardHome>
+            <CardHome IconName="user" title='29.75 M' subtitle="Toral users" ></CardHome>
             <CardHome IconName="eye" title='51.25 K' subtitle="dayly visitors"></CardHome>
             <CardHome IconName="cloud" title='166.89 M' subtitle="Downloads"></CardHome>
             <CardHome IconName="shopping-cart" title='1,250k' subtitle="Purchased"></CardHome>

@@ -10,7 +10,7 @@ export default props => {
             <View style={styles.MainVIew}>
                 <Icon name={props.IconName} size={60}/>
                 <View style={styles.ViewText}> 
-                    <Text style={styles.title}>{props.title}</Text>
+                    <Text style={styles.title} >{props.title} </Text>
                     <Text style={styles.subtitle}>{props.subtitle}</Text>
                 </View>
 

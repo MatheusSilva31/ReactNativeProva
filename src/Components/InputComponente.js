@@ -2,16 +2,30 @@ import React from 'react';
 import { TextInput,StyleSheet,Text,View   } from 'react-native';
 
 export default (props)=>{
-    return(
-        <>
-        <Text style={styles.estiloTexto} > {props.titulo}</Text>
+    
+    if (props.ehsenha == "true"){
+        return(
+            <>
+            <Text style={styles.estiloTexto} > {props.titulo}</Text>
         
-        <View style={styles.estilo1} >
-            <TextInput style={styles.estilo} placeholder={props.name}></TextInput>
-        </View>
-  
-        </>
-    )
+            <View style={styles.estilo1} >
+                <TextInput style={styles.estilo} placeholder={props.name}  secureTextEntry={true}></TextInput>
+            </View>
+            </>
+        )
+    }else{
+        return(
+            <>
+            <Text style={styles.estiloTexto} > {props.titulo}</Text>
+            
+            <View style={styles.estilo1} >
+                <TextInput style={styles.estilo} placeholder={props.name} secureTextEntry={false}></TextInput>
+            </View>
+      
+            </>
+        )
+
+    }
 }
 
 const styles = StyleSheet.create({
